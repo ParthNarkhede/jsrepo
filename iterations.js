@@ -19,6 +19,39 @@
 // const dig=678
 // console.log(dig.toPrecision(2));
 
+// const name="parth narkhede";
+
+// (function(){
+//     const name="modified"
+//     console.log(name);
+    
+// })();
+
+// console.log(name);
+
+// function changename(){
+//     const name='vedu narkhede';
+//     console.log(name);
+// }
+
+// changename();
+
+// console.log(name);
+
+
+var name = "Global Name";
+
+function regularFunction() {
+    name = "Modified by Function";
+    console.log(name);  // Outputs: "Modified by Function"
+}
+
+regularFunction();
+console.log(name);  // Outputs: "Modified by Function"
+
+
+
+
 
 
 
