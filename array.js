@@ -15,6 +15,9 @@ const mapped=myar.map((num)=>(num*10-27))
 console.log(mapped);
 console.log(myar);
 
+const reduced=myar.reduce((acc,curr)=>(acc+curr),0)
+console.log(reduced);
+
 
 
 
